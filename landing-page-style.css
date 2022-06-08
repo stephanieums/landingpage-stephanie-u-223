@@ -1,0 +1,103 @@
+<!--Landing Page CSS -->
+*::-webkit-scrollbar {
+  display:none;
+}
+
+body {
+  font-family:'Lato', sans-serif;
+}
+
+#bg1 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index:-1;
+}
+
+#logo {
+  float:left;
+  display: block;
+}
+
+#logo:hover {
+  background-color: transparent;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:transparent;
+  opacity: 0.75;
+  position:sticky;
+  top:0;
+}
+  
+li {
+ float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+li a:hover {
+  background-color: rgb(255, 115, 0);
+}
+
+span {
+  width:40px;
+  margin-top:10px;
+  color:white;
+  margin-left:20px;
+}
+span:hover {
+margin-top:5px;
+}
+
+.card {
+  display:flex;
+  margin-top: 20%;
+  position:relative;
+  color:white;
+  margin-left:5%;
+}
+
+.container {
+
+  padding: 20px 30px;
+  position:absolute;
+  border-radius: 5%;
+  opacity: 0.75;
+}
+
+p {
+  color:rgb(255, 115, 0);
+  font-size: larger;
+}
+
+h1 {
+  font-size:70px;
+}
+
+h3 {
+  font-size: 27px;
+  font-weight:lighter;
+}
+button {
+  background-color:rgb(255, 115, 0);
+  border:transparent;
+  width:100px;
+  height:50px;
+  color:white;
+  border-radius: 10%;
+}
+button:hover {
+  background-color: rgb(170, 77, 2);
+}
